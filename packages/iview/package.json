@@ -1,6 +1,6 @@
 {
     "name": "@crm-fc/iview",
-    "version": "0.0.3-alpha.0",
+    "version": "0.0.4-alpha.0",
     "description": "iview动态表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 3 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
     "main": "./dist/form-create.min.js",
     "module": "./dist/form-create.min.js",
@@ -43,22 +43,22 @@
     },
     "homepage": "http://www.form-create.com",
     "dependencies": {
-        "@crm-fc/component-ivu-checkbox": "^0.0.3-alpha.0",
-        "@crm-fc/component-ivu-frame": "^0.0.3-alpha.0",
-        "@crm-fc/component-ivu-group": "^0.0.3-alpha.0",
-        "@crm-fc/component-ivu-radio": "^0.0.3-alpha.0",
-        "@crm-fc/component-ivu-select": "^0.0.3-alpha.0",
-        "@crm-fc/component-ivu-tree": "^0.0.3-alpha.0",
-        "@crm-fc/component-ivu-upload": "^0.0.3-alpha.0",
-        "@crm-fc/component-subform": "^0.0.3-alpha.0",
-        "@crm-fc/core": "^0.0.3-alpha.0",
-        "@crm-fc/utils": "^0.0.3-alpha.0"
+        "@crm-fc/component-ivu-checkbox": "^0.0.4-alpha.0",
+        "@crm-fc/component-ivu-frame": "^0.0.4-alpha.0",
+        "@crm-fc/component-ivu-group": "^0.0.4-alpha.0",
+        "@crm-fc/component-ivu-radio": "^0.0.4-alpha.0",
+        "@crm-fc/component-ivu-select": "^0.0.4-alpha.0",
+        "@crm-fc/component-ivu-tree": "^0.0.4-alpha.0",
+        "@crm-fc/component-ivu-upload": "^0.0.4-alpha.0",
+        "@crm-fc/component-subform": "^0.0.4-alpha.0",
+        "@crm-fc/core": "^0.0.4-alpha.0",
+        "@crm-fc/utils": "^0.0.4-alpha.0"
     },
     "publishConfig": {
         "access": "public"
     },
     "devDependencies": {
-        "@crm-fc/component-wangeditor": "^0.0.3-alpha.0",
+        "@crm-fc/component-wangeditor": "^0.0.4-alpha.0",
         "@vue/cli-plugin-babel": "^4.5.9",
         "@vue/cli-service": "^4.5.3",
         "iview": "^3.3.3",
