@@ -47,6 +47,8 @@ export default function Handler(fc) {
     })
 
     this.initData(fc.rules);
+    console.log('1111');
+    
 
     this.$manager = new fc.manager(this);
     this.$render = new Render(this);
