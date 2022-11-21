@@ -1,5 +1,5 @@
 {
-    "name": "form-create",
+    "name": "crm-fc",
     "scripts": {
         "build": "node tools/cli/run.js build",
         "dev:ele": "cd packages/element-ui && npm run dev:ele",
