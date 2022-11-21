@@ -38,5 +38,6 @@
   },
   "dependencies": {
     "@crm-fc/utils": "^0.0.3-alpha.0"
-  }
+  },
+  "gitHead": "917f3c159c164f0bee76ec5003fe402a394a46d1"
 }
