@@ -1,7 +1,7 @@
 {
-  "name": "@form-create/component-ivu-radio",
+  "name": "@crm-fc/component-ivu-radio",
   "version": "2.5.28-alpha.0",
-  "description": "@form-create/iview 内置组件",
+  "description": "@crm-fc/iview 内置组件",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "unpkg": "./dist/index.js",
@@ -38,6 +38,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@form-create/utils": "^2.5.28-alpha.0"
+    "@crm-fc/utils": "^2.5.28-alpha.0"
   }
 }

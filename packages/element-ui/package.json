@@ -1,5 +1,5 @@
 {
-    "name": "@form-create/element-ui",
+    "name": "@crm-fc/element-ui",
     "version": "0.0.2-alpha.0",
     "description": "element-ui动态表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 3 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
     "main": "./dist/form-create.min.js",
@@ -43,25 +43,26 @@
     },
     "homepage": "http://www.form-create.com",
     "dependencies": {
-        "@form-create/component-elm-checkbox": "^2.5.28-alpha.0",
-        "@form-create/component-elm-frame": "^2.5.28-alpha.0",
-        "@form-create/component-elm-group": "^2.5.28-alpha.0",
-        "@form-create/component-elm-radio": "^2.5.28-alpha.0",
-        "@form-create/component-elm-select": "^2.5.28-alpha.0",
-        "@form-create/component-elm-tree": "^2.5.28-alpha.0",
-        "@form-create/component-elm-upload": "^2.5.28-alpha.0",
-        "@form-create/component-subform": "^2.5.28-alpha.0",
-        "@form-create/core": "^0.0.2-alpha.0",
-        "@form-create/utils": "^2.5.28-alpha.0"
+        "@crm-fc/component-elm-checkbox": "^2.5.28-alpha.0",
+        "@crm-fc/component-elm-frame": "^2.5.28-alpha.0",
+        "@crm-fc/component-elm-group": "^2.5.28-alpha.0",
+        "@crm-fc/component-elm-radio": "^2.5.28-alpha.0",
+        "@crm-fc/component-elm-select": "^2.5.28-alpha.0",
+        "@crm-fc/component-elm-tree": "^2.5.28-alpha.0",
+        "@crm-fc/component-elm-upload": "^2.5.28-alpha.0",
+        "@crm-fc/component-subform": "^2.5.28-alpha.0",
+        "@crm-fc/core": "^0.0.2-alpha.0",
+        "@crm-fc/utils": "^2.5.28-alpha.0"
     },
     "publishConfig": {
         "access": "public"
     },
     "devDependencies": {
-        "@form-create/component-wangeditor": "^2.5.28-alpha.0",
+        "@crm-fc/component-wangeditor": "^2.5.28-alpha.0",
         "@vue/cli-plugin-babel": "~4.5.0",
         "@vue/cli-service": "^4.5.3",
         "element-ui": "^2.15.9",
         "v-jsoneditor": "^1.4.2"
-    }
+    },
+    "gitHead": "1b0520f5909183fcbb0266fb9a2b96d3093208ff"
 }

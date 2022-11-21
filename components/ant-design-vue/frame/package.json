@@ -1,7 +1,7 @@
 {
-  "name": "@form-create/component-antdv-frame",
+  "name": "@crm-fc/component-antdv-frame",
   "version": "2.5.28-alpha.0",
-  "description": "@form-create/ant-design-vue 内置组件",
+  "description": "@crm-fc/ant-design-vue 内置组件",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "unpkg": "./dist/index.js",
@@ -30,7 +30,7 @@
   "author": "xaboy",
   "license": "MIT",
   "dependencies": {
-    "@form-create/utils": "^2.5.28-alpha.0"
+    "@crm-fc/utils": "^2.5.28-alpha.0"
   },
   "bugs": {
     "url": "https://github.com/xaboy/form-create/issues"

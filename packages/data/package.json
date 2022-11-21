@@ -1,5 +1,5 @@
 {
-    "name": "@form-create/data",
+    "name": "@crm-fc/data",
     "version": "2.5.28-alpha.0",
     "description": "",
     "main": "./src/index.js",

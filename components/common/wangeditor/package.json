@@ -1,5 +1,5 @@
 {
-  "name": "@form-create/component-wangeditor",
+  "name": "@crm-fc/component-wangeditor",
   "version": "2.5.28-alpha.0",
   "description": "@form-create 富文本组件",
   "main": "./dist/index.js",

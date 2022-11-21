@@ -1,7 +1,7 @@
 {
-  "name": "@form-create/component-elm-checkbox",
+  "name": "@crm-fc/component-elm-checkbox",
   "version": "2.5.28-alpha.0",
-  "description": "@form-create/element-ui 内置组件",
+  "description": "@crm-fc/element-ui 内置组件",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "unpkg": "./dist/index.js",
@@ -37,6 +37,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@form-create/utils": "^2.5.28-alpha.0"
+    "@crm-fc/utils": "^2.5.28-alpha.0"
   }
 }

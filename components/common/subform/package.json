@@ -1,5 +1,5 @@
 {
-  "name": "@form-create/component-subform",
+  "name": "@crm-fc/component-subform",
   "version": "2.5.28-alpha.0",
   "description": "@form-create 内置组件",
   "main": "./dist/index.js",
