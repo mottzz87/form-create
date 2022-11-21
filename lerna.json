@@ -28,7 +28,7 @@
     "components/iview/tree",
     "components/iview/upload"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "publishConfig": {
     "access": "public"
   }
