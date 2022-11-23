@@ -1,7 +1,7 @@
-import {err} from '@form-create/utils/lib/console';
+import {err} from '@crm-fc/utils/lib/console';
 import {invoke} from './util';
-import is from '@form-create/utils/lib/type';
-import deepSet from '@form-create/utils/lib/deepset';
+import is from '@crm-fc/utils/lib/type';
+import deepSet from '@crm-fc/utils/lib/deepset';
 
 const fetch = function (fc) {
 

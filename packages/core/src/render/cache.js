@@ -1,4 +1,4 @@
-import extend from '@form-create/utils/lib/extend';
+import extend from '@crm-fc/utils/lib/extend';
 
 export default function useCache(Render) {
     extend(Render.prototype, {

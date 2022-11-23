@@ -1,5 +1,5 @@
-import extend from '@form-create/utils/lib/extend';
-import toArray from '@form-create/utils/lib/toarray';
+import extend from '@crm-fc/utils/lib/extend';
+import toArray from '@crm-fc/utils/lib/toarray';
 
 const NAME = 'FormCreate';
 

@@ -1,8 +1,8 @@
 import getConfig from './config';
-import mergeProps from '@form-create/utils/lib/mergeprops';
-import is, {hasProperty} from '@form-create/utils/lib/type';
-import toString from '@form-create/utils/lib/tostring';
-import extend from '@form-create/utils/lib/extend';
+import mergeProps from '@crm-fc/utils/lib/mergeprops';
+import is, {hasProperty} from '@crm-fc/utils/lib/type';
+import toString from '@crm-fc/utils/lib/tostring';
+import extend from '@crm-fc/utils/lib/extend';
 
 function isTooltip(info) {
     return info.type === 'tooltip';

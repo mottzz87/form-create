@@ -1,6 +1,6 @@
 import useCache from './cache';
 import useRender from './render';
-import extend from '@form-create/utils/lib/extend';
+import extend from '@crm-fc/utils/lib/extend';
 import {funcProxy} from '../frame/util';
 
 export default function Render(handle) {

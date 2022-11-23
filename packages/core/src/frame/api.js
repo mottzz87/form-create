@@ -1,9 +1,9 @@
 import {byCtx, invoke, mergeRule, toJson} from './util';
-import {$set} from '@form-create/utils/lib/modify';
-import {deepCopy} from '@form-create/utils/lib/deepextend';
-import is, {hasProperty} from '@form-create/utils/lib/type';
-import extend from '@form-create/utils/lib/extend';
-import {format} from '@form-create/utils/lib/console';
+import {$set} from '@crm-fc/utils/lib/modify';
+import {deepCopy} from '@crm-fc/utils/lib/deepextend';
+import is, {hasProperty} from '@crm-fc/utils/lib/type';
+import extend from '@crm-fc/utils/lib/extend';
+import {format} from '@crm-fc/utils/lib/console';
 
 
 function copy(value) {

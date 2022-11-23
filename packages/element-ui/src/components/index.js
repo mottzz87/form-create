@@ -1,11 +1,11 @@
-import checkbox from '@form-create/component-elm-checkbox/src/index';
-import frame from '@form-create/component-elm-frame/src/index';
-import radio from '@form-create/component-elm-radio/src/index';
-import select from '@form-create/component-elm-select/src/index';
-import tree from '@form-create/component-elm-tree/src/index';
-import upload from '@form-create/component-elm-upload/src/index';
-import group from '@form-create/component-elm-group/src/index';
-import subForm from '@form-create/component-subform/src/index';
+import checkbox from '@crm-fc/component-elm-checkbox/src/index';
+import frame from '@crm-fc/component-elm-frame/src/index';
+import radio from '@crm-fc/component-elm-radio/src/index';
+import select from '@crm-fc/component-elm-select/src/index';
+import tree from '@crm-fc/component-elm-tree/src/index';
+import upload from '@crm-fc/component-elm-upload/src/index';
+import group from '@crm-fc/component-elm-group/src/index';
+import subForm from '@crm-fc/component-subform/src/index';
 
 
 export default [

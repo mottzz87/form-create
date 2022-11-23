@@ -1,6 +1,6 @@
-import {hasProperty} from '@form-create/utils/lib/type';
-import deepExtend, {deepCopy} from '@form-create/utils/lib/deepextend';
-import extend from '@form-create/utils/lib/extend';
+import {hasProperty} from '@crm-fc/utils/lib/type';
+import deepExtend, {deepCopy} from '@crm-fc/utils/lib/deepextend';
+import extend from '@crm-fc/utils/lib/extend';
 
 const NAME = 'fcGroup';
 

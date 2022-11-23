@@ -1,11 +1,11 @@
-import extend from '@form-create/utils/lib/extend';
-import mergeProps from '@form-create/utils/lib/mergeprops';
-import is, {hasProperty} from '@form-create/utils/lib/type';
+import extend from '@crm-fc/utils/lib/extend';
+import mergeProps from '@crm-fc/utils/lib/mergeprops';
+import is, {hasProperty} from '@crm-fc/utils/lib/type';
 import {_vue as Vue} from '../frame';
-import {tip} from '@form-create/utils/lib/console';
+import {tip} from '@crm-fc/utils/lib/console';
 import {invoke, mergeRule} from '../frame/util';
-import toCase, {lower} from '@form-create/utils/lib/tocase';
-import {$set, deepSet, toLine} from '@form-create/utils';
+import toCase, {lower} from '@crm-fc/utils/lib/tocase';
+import {$set, deepSet, toLine} from '@crm-fc/utils';
 
 export default function useRender(Render) {
     extend(Render.prototype, {

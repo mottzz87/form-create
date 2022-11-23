@@ -1,6 +1,6 @@
-import extend from '@form-create/utils/lib/extend';
-import is from '@form-create/utils/lib/type';
-import toLine from '@form-create/utils/lib/toline';
+import extend from '@crm-fc/utils/lib/extend';
+import is from '@crm-fc/utils/lib/type';
+import toLine from '@crm-fc/utils/lib/toline';
 import {parseFn} from '../frame/util';
 
 

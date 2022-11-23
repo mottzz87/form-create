@@ -1,8 +1,8 @@
-import extend from '@form-create/utils/lib/extend';
-import toCase from '@form-create/utils/lib/tocase';
+import extend from '@crm-fc/utils/lib/extend';
+import toCase from '@crm-fc/utils/lib/tocase';
 import BaseParser from '../factory/parser';
-import {$del} from '@form-create/utils/lib/modify';
-import is, {hasProperty} from '@form-create/utils/lib/type';
+import {$del} from '@crm-fc/utils/lib/modify';
+import is, {hasProperty} from '@crm-fc/utils/lib/type';
 import {invoke} from '../frame/util';
 
 const noneKey = ['field', 'value', 'vm', 'template', 'name', 'config', 'control', 'inject', 'sync', 'payload', 'optionsTo', 'update', 'component', 'cache'];

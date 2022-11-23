@@ -1,4 +1,4 @@
-import is from '@form-create/utils/lib/type';
+import is from '@crm-fc/utils/lib/type';
 
 const NAME = 'fcSelect';
 export default {

@@ -1,7 +1,7 @@
-import extend from '@form-create/utils/lib/extend';
-import is from '@form-create/utils/lib/type';
-import {invoke} from '@form-create/core/src/frame/util';
-import toArray from '@form-create/utils/lib/toarray';
+import extend from '@crm-fc/utils/lib/extend';
+import is from '@crm-fc/utils/lib/type';
+import {invoke} from '@crm-fc/core/src/frame/util';
+import toArray from '@crm-fc/utils/lib/toarray';
 
 function tidyBtnProp(btn, def) {
     if (is.Boolean(btn))

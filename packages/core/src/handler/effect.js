@@ -1,6 +1,6 @@
-import extend from '@form-create/utils/lib/extend';
-import is, {hasProperty} from '@form-create/utils/lib/type';
-import mergeProps from '@form-create/utils/lib/mergeprops';
+import extend from '@crm-fc/utils/lib/extend';
+import is, {hasProperty} from '@crm-fc/utils/lib/type';
+import mergeProps from '@crm-fc/utils/lib/mergeprops';
 
 
 export default function useEffect(Handler) {

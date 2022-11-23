@@ -1,10 +1,10 @@
-import extend from '@form-create/utils/lib/extend';
+import extend from '@crm-fc/utils/lib/extend';
 import {byCtx, copyRule, enumerable, getRule, invoke, parseFn} from '../frame/util';
-import is, {hasProperty} from '@form-create/utils/lib/type';
+import is, {hasProperty} from '@crm-fc/utils/lib/type';
 import {baseRule} from '../factory/creator';
 import RuleContext from '../factory/context';
-import mergeProps from '@form-create/utils/lib/mergeprops';
-import {$set} from '@form-create/utils';
+import mergeProps from '@crm-fc/utils/lib/mergeprops';
+import {$set} from '@crm-fc/utils';
 
 export default function useLoader(Handler) {
     extend(Handler.prototype, {

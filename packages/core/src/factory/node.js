@@ -1,7 +1,7 @@
-import toLine from '@form-create/utils/lib/toline';
-import is from '@form-create/utils/lib/type';
-import toString from '@form-create/utils/lib/tostring';
-import extend from '@form-create/utils/lib/extend';
+import toLine from '@crm-fc/utils/lib/toline';
+import is from '@crm-fc/utils/lib/type';
+import toString from '@crm-fc/utils/lib/tostring';
+import extend from '@crm-fc/utils/lib/extend';
 import Vue from 'vue';
 
 function parseProp(prop) {

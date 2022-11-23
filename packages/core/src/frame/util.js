@@ -1,11 +1,11 @@
-import is from '@form-create/utils/lib/type';
-import mergeProps from '@form-create/utils/lib/mergeprops';
+import is from '@crm-fc/utils/lib/type';
+import mergeProps from '@crm-fc/utils/lib/mergeprops';
 import {arrayAttrs, normalAttrs} from './attrs';
-import {logError} from '@form-create/utils/lib/console';
-import {parseJson, toJson} from '@form-create/utils/lib/json';
-import deepExtend from '@form-create/utils/lib/deepextend';
+import {logError} from '@crm-fc/utils/lib/console';
+import {parseJson, toJson} from '@crm-fc/utils/lib/json';
+import deepExtend from '@crm-fc/utils/lib/deepextend';
 
-export {parseFn} from '@form-create/utils/lib/json';
+export {parseFn} from '@crm-fc/utils/lib/json';
 export {parseJson, toJson}
 
 export function enumerable(value, writable) {
