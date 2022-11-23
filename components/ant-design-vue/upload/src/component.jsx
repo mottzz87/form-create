@@ -1,7 +1,7 @@
-import toString from '@form-create/utils/lib/tostring';
-import deepExtend from '@form-create/utils/lib/deepextend';
-import toArray from '@form-create/utils/lib/toarray';
-import getSlot from '@form-create/utils/lib/slot';
+import toString from '@crm-fc/utils/lib/tostring';
+import deepExtend from '@crm-fc/utils/lib/deepextend';
+import toArray from '@crm-fc/utils/lib/toarray';
+import getSlot from '@crm-fc/utils/lib/slot';
 
 const parseFile = function (file, uid) {
         return {

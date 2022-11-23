@@ -1,4 +1,4 @@
-import {FormData, VNodeRule} from "@form-create/core";
+import {FormData, VNodeRule} from "@crm-fc/core";
 import {Col, Row, Tooltip, Poptip, Button} from "iview";
 import {Api} from "./index";
 

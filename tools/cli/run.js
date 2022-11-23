@@ -17,13 +17,13 @@ program.on('--help', () => {
 
 /// tools 版本
 program
-    .version(`@form-create/tools v${require(pkgUrl).version}`, '-v, --version', 'tools versions')
+    .version(`@crm-fc/tools v${require(pkgUrl).version}`, '-v, --version', 'tools versions')
 
 program
     .command('build [flag]')
     .description('build packages')
-    .option('-a,--all', 'Build @form-create/[all]packages') /// 默认打包搓个
-    .option('-p, --packages <ui-package...>', 'Build @form-create/<ui-package> package or packages array') // 默认打单独的包支持数据
+    .option('-a,--all', 'Build @crm-fc/[all]packages') /// 默认打包搓个
+    .option('-p, --packages <ui-package...>', 'Build @crm-fc/<ui-package> package or packages array') // 默认打单独的包支持数据
     .action((_, cmd) => require('../lib/build')(_, cleanArgs(cmd)));
 
 program.parse(process.argv);

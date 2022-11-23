@@ -19,7 +19,7 @@ Vue.use(FormCreate)
 import VJsoneditor from 'v-jsoneditor'
 import addressEffect from './addressEffect';
 import App from './App.vue'
-import wangEditor from '@form-create/component-wangeditor/src'
+import wangEditor from '@crm-fc/component-wangeditor/src'
 
 
 Vue.use(VJsoneditor)

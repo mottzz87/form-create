@@ -8,11 +8,14 @@
  */
 import Vue from 'vue'
 import ElementUI from 'element-ui'
+import Taro from 'taro-ui-vue'
 import 'element-ui/lib/theme-chalk/index.css'
 import FormCreate from '../src'
+import 'taro-ui/dist/style/index.scss'
 
 Vue.use(ElementUI)
 Vue.use(FormCreate)
+Vue.use(Taro)
 
 //todo ------------------ Demo 用 ------------------
 

@@ -1,6 +1,6 @@
-import toArray from '@form-create/utils/lib/toarray';
+import toArray from '@crm-fc/utils/lib/toarray';
 import './style.css';
-import getSlot from '@form-create/utils/lib/slot';
+import getSlot from '@crm-fc/utils/lib/slot';
 
 function parseFile(file) {
     return {

@@ -49,7 +49,7 @@ async function createBuildTask(args) {
             }
         })
         /// building
-        const addPrefix = '--scope @form-create/'
+        const addPrefix = '--scope @crm-fc/'
         const packagesNames = []
         defaultPkgs.concat(args.packages).forEach(scope => {
             packagesNames.push(addPrefix + scope)

@@ -1,0 +1,69 @@
+{
+    "name": "@crm-fc/taro-ui",
+    "version": "0.0.4-alpha.0",
+    "description": "element-ui动态表单|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. Supports 3 UI frameworks, and supports the generation of any Vue components. Built-in 20 kinds of commonly used form components and custom components, no matter how complex forms can be easily handled.",
+    "main": "./dist/form-create.min.js",
+    "module": "./dist/form-create.min.js",
+    "unpkg": "./dist/form-create.min.js",
+    "jsdelivr": "./dist/form-create.min.js",
+    "typings": "./types/index.d.ts",
+    "scripts": {
+        "clean": "rimraf dist/",
+        "dev:taro": "vue-cli-service serve",
+        "bili": "cross-env UI_LIB=taro-ui bili",
+        "build": "npm-run-all clean bili"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xaboy/form-create.git"
+    },
+    "keywords": [
+        "动态表单",
+        "@form-create",
+        "form-builder",
+        "form",
+        "components",
+        "vue.js",
+        "element-ui",
+        "json-form",
+        "dynamic-form"
+    ],
+    "files": [
+        "README.md",
+        "package.json",
+        "LICENSE",
+        "src",
+        "types",
+        "dist"
+    ],
+    "author": "xaboy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xaboy/form-create/issues"
+    },
+    "homepage": "http://www.form-create.com",
+    "dependencies": {
+        "@crm-fc/component-elm-checkbox": "^0.0.4-alpha.0",
+        "@crm-fc/component-elm-frame": "^0.0.4-alpha.0",
+        "@crm-fc/component-elm-group": "^0.0.4-alpha.0",
+        "@crm-fc/component-elm-radio": "^0.0.4-alpha.0",
+        "@crm-fc/component-elm-select": "^0.0.4-alpha.0",
+        "@crm-fc/component-elm-tree": "^0.0.4-alpha.0",
+        "@crm-fc/component-elm-upload": "^0.0.4-alpha.0",
+        "@crm-fc/component-subform": "^0.0.4-alpha.0",
+        "@crm-fc/core": "^0.0.4-alpha.0",
+        "@crm-fc/utils": "^0.0.4-alpha.0",
+        "taro-ui-vue": "^1.0.0-beta.16"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@crm-fc/component-wangeditor": "^0.0.4-alpha.0",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-service": "^4.5.3",
+        "element-ui": "^2.15.9",
+        "v-jsoneditor": "^1.4.2"
+    },
+    "gitHead": "917f3c159c164f0bee76ec5003fe402a394a46d1"
+}

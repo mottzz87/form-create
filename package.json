@@ -3,6 +3,7 @@
     "scripts": {
         "build": "node tools/cli/run.js build",
         "dev:ele": "cd packages/element-ui && npm run dev:ele",
+        "dev:taro": "cd packages/taro-ui && npm run dev:taro",
         "dev:iview": "cd packages/iview && npm run dev:iview",
         "dev:iview4": "cd packages/iview4 && npm run dev:iview4",
         "dev:view-design": "cd packages/view-design && npm run dev:view-design",

@@ -1,4 +1,4 @@
-import {CreatorHelper} from "@form-create/core";
+import {CreatorHelper} from "@crm-fc/core";
 import {ApiAttrs, CreatorAttrs, OptionAttrs, RuleAttrs} from "./config";
 
 declare const makerFactory: CreatorHelper<OptionAttrs, CreatorAttrs, RuleAttrs, ApiAttrs>

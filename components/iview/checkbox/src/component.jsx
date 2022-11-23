@@ -1,4 +1,4 @@
-import getSlot from '@form-create/utils/lib/slot';
+import getSlot from '@crm-fc/utils/lib/slot';
 
 const NAME = 'fcCheckbox';
 

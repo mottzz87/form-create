@@ -1,5 +1,5 @@
 import moment from 'moment';
-import {creatorFactory} from '@form-create/core/src/index';
+import {creatorFactory} from '@crm-fc/core/src/index';
 
 const FORMAT_TYPE = {
     date: 'YYYY-MM-DD',

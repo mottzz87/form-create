@@ -1,7 +1,7 @@
 import getConfig, {info, iviewConfig} from './config';
-import mergeProps from '@form-create/utils/lib/mergeprops';
-import is, {hasProperty} from '@form-create/utils/lib/type';
-import extend from '@form-create/utils/lib/extend';
+import mergeProps from '@crm-fc/utils/lib/mergeprops';
+import is, {hasProperty} from '@crm-fc/utils/lib/type';
+import extend from '@crm-fc/utils/lib/extend';
 
 function tidy(props, name) {
     if (!hasProperty(props, name)) return;

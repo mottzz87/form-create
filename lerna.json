@@ -8,6 +8,7 @@
     "packages/iview4",
     "packages/view-design",
     "packages/utils",
+    "packages/taro-ui",
     "components/common/subform",
     "components/common/wangeditor",
     "components/ant-design-vue/frame",

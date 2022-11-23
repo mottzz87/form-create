@@ -1,4 +1,4 @@
-import {FormData, VNodeRule} from "@form-create/core";
+import {FormData, VNodeRule} from "@crm-fc/core";
 import {Button, Col, Popover, Row, Tooltip} from "ant-design-vue";
 import {Api} from "./index";
 

@@ -1,6 +1,6 @@
 import getSlot from '@crm-fc/utils/lib/slot';
 
-const NAME = 'fcCheckbox';
+const NAME = 'atCheckbox';
 
 export default {
     name: NAME,
