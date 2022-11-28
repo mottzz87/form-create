@@ -27,7 +27,8 @@
     "components/iview/radio",
     "components/iview/select",
     "components/iview/tree",
-    "components/iview/upload"
+    "components/iview/upload",
+    "components/taro-ui/checkbox"
   ],
   "version": "0.0.5-alpha.0",
   "publishConfig": {

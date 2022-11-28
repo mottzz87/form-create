@@ -48,21 +48,19 @@ export default {
         this.update();
     },
     render() {
-        // return <ElCheckboxGroup {...this.formCreateInject.prop} props={{value: this.trueValue}}
-        //     on-input={this.onInput}>{this.options().map((opt, index) => {
-        //         const props = {...opt};
-        //         const Type = this.type === 'button' ? 'ElCheckboxButton' : 'ElCheckbox';
-        //         delete props.value;
-        //         return <Type props={props} key={Type + index + '-' + opt.value}/>
-        //     })}{getSlot(this.$slots)}</ElCheckboxGroup>
+        return <ElCheckboxGroup {...this.formCreateInject.prop} props={{value: this.trueValue}}
+            on-input={this.onInput}>{this.options().map((opt, index) => {
+                const props = {...opt};
+                const Type = this.type === 'button' ? 'ElCheckboxButton' : 'ElCheckbox';
+                delete props.value;
+                return <Type props={props} key={Type + index + '-' + opt.value}/>
+            })}{getSlot(this.$slots)}</ElCheckboxGroup>
 
-        // return <AtCheckbox {...this.formCreateInject.prop} props={{value: this.trueValue}} on-input={this.onInput}>{this.options().map((opt, index) => {
+        // return <van-checkbox-group {...this.formCreateInject.prop} props={{value: this.trueValue}} on-input={this.onInput}>{this.options().map((opt, index) => {
         //     const props = {...opt};
         //     const Type = this.type === 'button' ? 'ElCheckboxButton' : 'ElCheckbox';
         //     delete props.value;
         //     return <Type props={props} key={Type + index + '-' + opt.value}/>
-        // })}{getSlot(this.$slots)}</AtCheckbox>
-
-        return <AtButton type='primary'>按钮文案</AtButton>
+        // })}{getSlot(this.$slots)}</van-checkbox-group>
     }
 }

@@ -53,7 +53,8 @@
         "@crm-fc/component-subform": "^0.0.4-alpha.0",
         "@crm-fc/core": "^0.0.5-alpha.0",
         "@crm-fc/utils": "^0.0.4-alpha.0",
-        "taro-ui-vue": "^1.0.0-beta.16"
+        "taro-ui-vue": "^1.0.0-beta.16",
+        "vant": "^2.12.53"
     },
     "publishConfig": {
         "access": "public"
@@ -62,8 +63,11 @@
         "@crm-fc/component-wangeditor": "^0.0.5-alpha.0",
         "@vue/cli-plugin-babel": "~4.5.0",
         "@vue/cli-service": "^4.5.3",
+        "babel-plugin-import": "^1.13.5",
         "element-ui": "^2.15.9",
-        "v-jsoneditor": "^1.4.2"
+        "less-loader": "^5.0.0",
+        "v-jsoneditor": "^1.4.2",
+        "webpack": "^4.44.2"
     },
     "gitHead": "917f3c159c164f0bee76ec5003fe402a394a46d1"
 }

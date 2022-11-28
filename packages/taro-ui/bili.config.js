@@ -24,9 +24,9 @@ module.exports = {
     },
     globals: {
         vue: 'Vue',
-        ELEMENT: 'element-ui'
+        ELEMENT: 'vant'
     },
-    externals: ['vue', 'Vue', 'element-ui', 'elementUI', 'taro-ui', 'taro-ui-vue'],
+    externals: ['vue', 'Vue', 'element-ui', 'elementUI', 'taro-ui', 'taro-ui-vue', 'vant'],
     output: {
         format: ['umd', 'umd-min'],
         moduleName: 'formCreate',

@@ -14,7 +14,6 @@ const shell = require('shelljs')
 
 
 let spinner
-const log = console.log
 const context = process.cwd()
 
 async function createBuildTask(args) {

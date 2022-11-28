@@ -1,5 +1,5 @@
 {
-  "name": "@crm-fc/component-elm-checkbox",
+  "name": "@crm-fc/component-taro-checkbox",
   "version": "0.0.4-alpha.0",
   "description": "@crm-fc/element-ui 内置组件",
   "main": "./dist/index.js",
