@@ -205,6 +205,7 @@ export default function jsonMock() {
             value: [
                 '1', '2', '3'
             ],
+            col: {span: 6},
             options: [
                 {value: '1', label: '好用', disabled: true},
                 {value: '2', label: '方便', disabled: false},
@@ -213,6 +214,7 @@ export default function jsonMock() {
             ],
             props: {
                 disabled: false, //是否禁用
+                direction: 'horizontal',
             }
         },
 

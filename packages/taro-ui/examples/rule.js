@@ -231,16 +231,16 @@ export default function mock() {
         //checkbox 复选框付选择
         maker.checkbox('标签', 'label', [1]).options([
             {value: 1, label: '好用', disabled: true},
-            {value: 2, label: '方便', disabled: false},
+            {value: 2, label: '方便', disabled: false, shape: 'square'},
             {value: 3, label: '实用', disabled: false},
             {value: 4, label: '有效', disabled: false},
-        ]).col({span: 8}).children([
+        ]).children([
             {
-                type: 'el-checkbox',
-                children: ['asdf'],
-                slot: 'default'
+                type: 'van-checkbox',
+                children: ['111'],
+                slot: 'default',
             }
-        ]),
+        ]).col({span: 24}).props({direction: 'horizontal'}),
 
 
         // //switch 开关组件

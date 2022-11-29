@@ -14,7 +14,7 @@ export default {
     datePicker: PRE + 'DatePicker',
     'switch': PRE + 'Switch',
     select: 'fcSelect',
-    checkbox: 'atCheckbox',
+    checkbox: 'vantCheckbox',
     radio: 'fcRadio',
     inputNumber: PRE + 'InputNumber',
     number: PRE + 'InputNumber',

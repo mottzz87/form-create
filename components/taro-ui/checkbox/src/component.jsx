@@ -1,6 +1,6 @@
 import getSlot from '@crm-fc/utils/lib/slot';
 
-const NAME = 'atCheckbox';
+const NAME = 'vantCheckbox';
 
 export default {
     name: NAME,
@@ -33,7 +33,7 @@ export default {
     },
     methods: {
         options() {
-            const opt = this.formCreateInject.options;
+            const opt = this.formCreateInject.options.map(v=> ({...v, name: v.label}));
             return Array.isArray(opt) ? opt : [];
         },
         onInput(n) {
@@ -48,19 +48,47 @@ export default {
         this.update();
     },
     render() {
-        return <ElCheckboxGroup {...this.formCreateInject.prop} props={{value: this.trueValue}}
-            on-input={this.onInput}>{this.options().map((opt, index) => {
+        return <van-checkbox-group {...this.formCreateInject.prop} props={{value: this.trueValue}} on-input={this.onInput}>
+            {/* {
+                this.type === 'unit' ?
+                    <van-cell-group>
+                        {
+                            this.options().map((opt, i) => (
+                                <van-cell title={opt.label}
+                                    // {...{scopedSlots: {
+                                    //     rightIcon: ({prop}) => <van-checkbox name={opt.label} ref="checkboxes" />
+                                    // }}}
+                                >
+                                    <van-checkbox name={opt.label} ref="checkboxes" />
+                                </van-cell>
+                            ))
+                        }
+                    </van-cell-group>
+                :   this.options().map((opt, index) => {
+                        const props = {...opt};
+                        delete props.value;
+                        return <van-checkbox props={props} key={index + '-' + opt.value}>{opt.label}</van-checkbox>
+                    })}{getSlot(this.$slots)
+            } */}
+            {/* <van-cell-group>
+                {
+                    this.options().map((opt, i) => (
+                        <van-cell title={opt.label}
+                            // {...{scopedSlots: {
+                            //     rightIcon: ({prop}) => <van-checkbox name={opt.label} ref="checkboxes" />
+                            // }}}
+                        >
+                            <van-checkbox name={opt.label} ref="checkboxes" />
+                        </van-cell>
+                    ))
+                }
+            </van-cell-group> */}
+            {this.options().map((opt, index) => {
                 const props = {...opt};
-                const Type = this.type === 'button' ? 'ElCheckboxButton' : 'ElCheckbox';
+                const Type = 'van-checkbox';
                 delete props.value;
-                return <Type props={props} key={Type + index + '-' + opt.value}/>
-            })}{getSlot(this.$slots)}</ElCheckboxGroup>
-
-        // return <van-checkbox-group {...this.formCreateInject.prop} props={{value: this.trueValue}} on-input={this.onInput}>{this.options().map((opt, index) => {
-        //     const props = {...opt};
-        //     const Type = this.type === 'button' ? 'ElCheckboxButton' : 'ElCheckbox';
-        //     delete props.value;
-        //     return <Type props={props} key={Type + index + '-' + opt.value}/>
-        // })}{getSlot(this.$slots)}</van-checkbox-group>
+                return <Type props={props} key={Type + index + '-' + opt.value}>{opt.label}</Type>
+            })}{getSlot(this.$slots)}
+        </van-checkbox-group>
     }
 }

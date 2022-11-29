@@ -21,7 +21,7 @@ module.exports = {
     },
     output: {
         format: ['umd-min'],
-        moduleName: 'atCheckbox',
+        moduleName: 'vantCheckbox',
         fileName: 'index.js',
         extractCSS: false
     },
